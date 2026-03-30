@@ -3,55 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kargi</title>
+    <title>Kargi — Marketplace Delivery Platform</title>
+
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, sans-serif;
             margin: 0;
-            padding: 40px;
-            background: #f7f7f7;
+            background: #f5f7fb;
             color: #111;
         }
         .container {
-            max-width: 600px;
+            max-width: 800px;
             margin: auto;
+            padding: 40px 20px;
+        }
+        .card {
             background: white;
             padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
         }
-        h1 {
+        h1, h2 {
             margin-top: 0;
         }
         p {
             line-height: 1.6;
+            color: #444;
+        }
+        .section {
+            margin-top: 30px;
         }
         .footer {
-            margin-top: 30px;
             font-size: 14px;
-            color: #666;
+            color: #777;
+            margin-top: 20px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 6px 10px;
+            background: #eef2ff;
+            border-radius: 8px;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 18px;
+            color: #444;
         }
     </style>
 </head>
+
 <body>
 <div class="container">
-    <h1>Kargi</h1>
 
-    <p>
-        Kargi is a marketplace platform that connects customers with local retail stores in Batumi, Georgia.
-    </p>
+    <!-- MAIN -->
+    <div class="card">
+        <div class="badge">Kargi</div>
+        <h1>Marketplace Delivery Platform</h1>
 
-    <p>
-        Users can browse products, place orders, and receive delivery from nearby stores through a single application.
-    </p>
+        <p>
+            Kargi is a mobile application that connects customers with local retail stores in Batumi, Georgia.
+        </p>
 
-    <p>
-        The platform provides payment processing, order management, and customer support.
-    </p>
+        <p>
+            Users can browse products, place orders, and receive delivery from nearby stores through a single platform.
+        </p>
 
-    <div class="footer">
-        Contact: kargi.app@gmail.com
+        <p>
+            The platform provides payment processing, order management, and customer support.
+        </p>
+
+        <div class="section">
+            <h2>How it works</h2>
+            <ul>
+                <li>Customers select products from partner stores</li>
+                <li>Orders are placed and paid through the platform</li>
+                <li>Stores prepare the order</li>
+                <li>Delivery is performed by a third-party courier service</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            Contact: kargi.app@gmail.com
+        </div>
     </div>
+
+    <!-- TERMS -->
+    <div class="card">
+        <h2>Terms of Service</h2>
+
+        <p>
+            Kargi provides a platform that connects users with independent retail stores. By using the service, you agree to these terms.
+        </p>
+
+        <p>
+            Products are sold by partner merchants, who are responsible for product quality, accuracy, and compliance with local regulations.
+        </p>
+
+        <p>
+            The platform facilitates ordering, payment processing, and customer support, but does not manufacture or directly supply goods.
+        </p>
+
+        <p>
+            Kargi reserves the right to update these terms at any time.
+        </p>
+    </div>
+
+    <!-- PRIVACY -->
+    <div class="card">
+        <h2>Privacy Policy</h2>
+
+        <p>
+            We collect only the information necessary to provide our services, including account details, order information, and contact data.
+        </p>
+
+        <p>
+            This data is used to process orders, improve service quality, and provide customer support.
+        </p>
+
+        <p>
+            We do not sell personal data to third parties. Information may be shared with partner stores and delivery providers strictly for order fulfillment.
+        </p>
+
+        <p>
+            We take reasonable measures to protect user data.
+        </p>
+    </div>
+
+    <!-- REFUNDS -->
+    <div class="card">
+        <h2>Refund Policy</h2>
+
+        <p>
+            If there is an issue with an order (missing items, incorrect items, or quality concerns), users can contact support.
+        </p>
+
+        <p>
+            Each case is reviewed individually. Depending on the situation, a partial or full refund may be issued.
+        </p>
+
+        <p>
+            Refunds are processed back to the original payment method.
+        </p>
+    </div>
+
 </div>
 </body>
 </html>
